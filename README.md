@@ -42,7 +42,7 @@
 
 ## Watch the Live Version
 
-[Live Demo]()
+[Live Demo](https://railona.github.io/weatherApp/)
 
 ### Prerequisites
 
