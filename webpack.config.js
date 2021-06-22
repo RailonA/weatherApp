@@ -10,8 +10,8 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.scss$/i,
-        use: ['style-loader', 'css-loader', 'sass-loader'],
+        test: /\.css$/,
+        use: [{ loader: 'style-loader' }, { loader: 'css-loader' }],
       },
       {
         test: /\.m?js$/,
@@ -32,7 +32,7 @@ module.exports = {
           {
             loader: 'image-webpack-loader',
             options: {
-              disable: false,
+              disable: true,
             },
           },
         ],

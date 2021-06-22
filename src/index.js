@@ -1,6 +1,6 @@
-import './main.scss';
+import './styles/style.css';
 import header from './scripts/header';
-import main from './scripts/main';
+import main from './scripts/renderWeather';
 import weatherApi from './scripts/weatherApi';
 import displayWeather from './scripts/weatherRender';
 import tempConv from './scripts/tempConv';

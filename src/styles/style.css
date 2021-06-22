@@ -7,7 +7,6 @@ html,
 body {
   height: 100%;
 }
-$white:hsl(100, 100%, 100%);
 
 .rainyBg {
   background: url(../assets/rain.jpg) center;
@@ -35,7 +34,7 @@ $white:hsl(100, 100%, 100%);
 }
 
 .body {
-  background: hsla(hue($white), saturation($white), lightness($white), 0.9);
+  background: hsl(300deg 3% 6% / 72%);
   max-height: 100rem;
   height: 100%;
 }
