@@ -123,7 +123,7 @@ const changeBackground = (weather) => {
     }
     case 'Snow': {
       body.removeAttribute('class');
-      body.classList.add('rainyBg');
+      body.classList.add('snowyBg');
       break;
     }
     default:

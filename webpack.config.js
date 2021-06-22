@@ -24,7 +24,7 @@ module.exports = {
         },
       },
       {
-        test: /\.(gif|png|jpe?g|svg)$/i,
+        test: /\.(gif|png|jpg|jpe?g|svg)$/i,
         use: [
           {
             loader: 'file-loader',
@@ -32,7 +32,7 @@ module.exports = {
           {
             loader: 'image-webpack-loader',
             options: {
-              disable: true,
+              disable: false,
             },
           },
         ],

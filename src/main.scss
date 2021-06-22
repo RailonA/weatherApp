@@ -19,12 +19,17 @@ body {
 }
 
 .cloudyBg {
+  background: url(../assets/cloudy.jpg) center;
+  background-size: cover;
+}
+
+.snowyBg {
   background: url(../assets/cold.jpg) center;
   background-size: cover;
 }
 
 .defaultBg {
-  background: url(../assets/cold.jpg) center;
+  background: url(../assets/sunny.jpg) center;
   background-size: cover;
 }
 
