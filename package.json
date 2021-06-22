@@ -1,11 +1,12 @@
 {
   "name": "weatherapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "A weather forecast site using the weather API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode development --watch"
+    "watch": "webpack watch",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
